@@ -69,10 +69,10 @@
 #endif
 #define Y_MIN_PIN          14
 #define Y_MAX_PIN          15
-#define Z_MIN_PIN          18
+#define Z_MIN_PIN          57 //Cambiado el pin por uno de la placa para poder así mantener el endstop mecánico en el mismo sitio dentro de la placa
 #define Z_MAX_PIN          19
 #ifndef Z_MIN_PROBE_PIN
-  #define Z_MIN_PROBE_PIN  32
+  #define Z_MIN_PROBE_PIN  18
 #endif
 
 #define X_STEP_PIN         54
